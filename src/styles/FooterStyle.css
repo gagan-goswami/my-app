@@ -1,0 +1,94 @@
+.footer-section {
+  padding: 45px 0px 10px 0px;
+  background-color: var(--bg-color-primary);
+}
+
+.footer-section .footer-item img {
+  margin-bottom: 20px;
+}
+
+.footer-section .footer-item p {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  margin-bottom: 25px;
+}
+
+.footer-section .footer-item h4 {
+  font-size: 20px;
+  color: var(--dark);
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-section .footer-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section .footer-item ul li {
+  margin-bottom: 5px;
+  color: var(--grey);
+}
+
+.footer-section .footer-item ul li a {
+  color: var(--grey);
+  font-family: "Poppins", serif;
+}
+
+.footer-section .footer-item ul li span {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.footer-section .social-icons {
+  display: flex;
+}
+
+.footer-section .social-icons li {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.footer-section .social-icons li svg {
+  color: var(--primary-color);
+  height: 25px;
+  width: 25px;
+}
+
+.footer-section .copy-right {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.footer-section .copy-right p {
+  color: var(--grey);
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.footer-section .payment-methods {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section .payment-methods ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section .payment-methods ul li {
+  margin-right: 10px;
+}
+
+.footer-section .payment-methods ul li svg {
+  font-size: 30px;
+}

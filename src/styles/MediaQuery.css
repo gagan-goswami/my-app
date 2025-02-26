@@ -1,0 +1,47 @@
+@media screen and (max-width: 992px) {
+  .Hero-Section .hero-content {
+    margin-right: 0px;
+  }
+
+  .cake-section .section-title,
+  .feature-product .section-title,
+  .bestsale-section .section-title,
+  .flavoursicecream-section .section-title,
+  .sugarrush-section .section-title,
+  .deliciousdonuts-section .section-title,
+  .testimonial-section .section-title,
+  .testimonial-section .section-title,
+  .blog-section .section-title,
+  .contact-section .section-title {
+    text-align: center;
+    margin: 0px 0px 45px 0px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .footer-section .copy-right {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .offcanvas-header {
+    background-color: var(--white);
+  }
+
+  .offcanvas-body {
+    background-color: var(--bg-color-primary);
+  }
+
+  .header-section .dropdown:hover .dropdown-menu,
+  .offcanvas-body .dropdown:hover .dropdown-menu {
+    border: 1px solid rgba(255, 255, 255, 0.231);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header-section .contact-btn {
+    display: none;
+  }
+}

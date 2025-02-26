@@ -1,0 +1,801 @@
+/*====Hero-Section-start==== */
+
+.Hero-Section {
+  background: url(../assets/images/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hero-Section .hero-content {
+  margin-right: 500px;
+}
+
+.Hero-Section .hero-content h1 {
+  font-size: 50px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.Hero-Section .hero-content P {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
+  font-family: "Poppins", serif;
+}
+
+.Hero-Section .hero-content button {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.Hero-Section .hero-content button i {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.Hero-Section .hero-content button:hover {
+  background-color: var(--white);
+  color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid var(--primary-color);
+}
+
+/*====Hero-Section-end==== */
+
+/*====cake-Section-start==== */
+
+.cake-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color-secondary);
+}
+
+.cake-section .section-title {
+  text-align: center;
+  margin: 0px 150px 45px 150px;
+}
+
+.cake-section .section-title h2 {
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.cake-section .section-title p {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
+  font-family: "Poppins", serif;
+}
+
+.cake-section .cake-item {
+  padding: 10px;
+  background-color: var(--bg-color-primary);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.cake-section .cake-img {
+  background: url(../assets/images/cake-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cake-section .cake-item h3 {
+  font-size: 20px;
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.cake-section .cake-item p {
+  font-size: 16px;
+  color: var(--grey);
+  font-family: "Poppins", serif;
+  font-weight: 300;
+}
+
+.cake-section .cake-item button {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+  border-radius: 50px;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 20px auto;
+}
+
+.cake-section .cake-item button:hover {
+  background-color: var(--white);
+  color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid var(--primary-color);
+}
+
+/*====cake-Section-end==== */
+
+/*====feature-product-start==== */
+
+.feature-product {
+  padding: 90px 0px;
+  background-color: var(--bg-color-primary);
+}
+
+.feature-product .section-title {
+  text-align: center;
+  margin: 0px 150px 45px 150px;
+}
+
+.feature-product .section-title h2 {
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.feature-product .section-title p {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
+  font-family: "Poppins", serif;
+}
+
+.feature-product .card {
+  background-color: var(--bg-color-primary);
+  border-radius: 10px;
+  border: 1px solid #b9b8b8;
+  margin-bottom: 25px;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.feature-product .card:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.feature-product .card:hover img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-product .card img {
+  background-color: var(--white);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-product .price-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.feature-product .rating span {
+  color: var(--primary-color);
+  font-size: 18px;
+  margin-right: 2px;
+}
+
+.feature-product .empty-star {
+  color: lightgray;
+  margin-right: 2px;
+}
+
+.feature-product .cart-icon {
+  font-size: 16px;
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--primary-color);
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.feature-product .price {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.feature-product .view-more {
+  width: 200px;
+  height: 50px;
+  background-color: var(--white);
+  color: var(--primary-color);
+  border: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*====feature-product-start==== */
+
+/*====about-section-start==== */
+
+.about-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color-secondary);
+}
+
+.about-section .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section .about-content h2 {
+  font-size: 40px;
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-section .about-content p {
+  font-size: 16px;
+  color: var(--dark);
+  font-weight: 500;
+  font-family: "Poppins", serif;
+}
+
+.about-btn button {
+  width: 150px;
+  height: 50px;
+  background-color: var(--white);
+  color: var(--primary-color);
+  border: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-btn button {
+  width: 150px;
+  height: 50px;
+  background-color: var(--white);
+  color: var(--primary-color);
+  border: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*====about-section-end==== */
+
+/*====bestsale-section-start==== */
+
+.bestsale-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color-primary);
+}
+
+.bestsale-section .section-title {
+  text-align: center;
+  margin: 0px 150px 45px 150px;
+}
+
+.bestsale-section .section-title h2 {
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.bestsale-section .section-title p {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
+  font-family: "Poppins", serif;
+}
+
+.bestsale-section .card {
+  background-color: var(--bg-color-primary);
+  border-radius: 10px;
+  border: 1px solid #b9b8b8;
+  margin-bottom: 25px;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.bestsale-section .card:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bestsale-section .card:hover img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.bestsale-section .card img {
+  background-color: var(--white);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bestsale-section .price-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.bestsale-section .rating span {
+  color: var(--primary-color);
+  font-size: 18px;
+  margin-right: 2px;
+}
+
+.bestsale-section .empty-star {
+  color: lightgray;
+  margin-right: 2px;
+}
+
+.bestsale-section .cart-icon {
+  font-size: 16px;
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--primary-color);
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.bestsale-section .price {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bestsale-section .view-more {
+  width: 150px;
+  height: 50px;
+  background-color: var(--white);
+  color: var(--primary-color);
+  border: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*====bestsale-section-end==== */
+
+/*====flavoursicecream-section-start==== */
+
+.flavoursicecream-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color-secondary);
+}
+
+.flavoursicecream-section .section-title {
+  text-align: center;
+  margin: 0px 150px 45px 150px;
+}
+
+.flavoursicecream-section .section-title h2 {
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.flavoursicecream-section .section-title p {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
+  font-family: "Poppins", serif;
+}
+
+.flavoursicecream-section .flavour-item {
+  margin-bottom: 25px;
+}
+
+.flavoursicecream-section .flavour-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.flavoursicecream-section .flavour-item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--grey);
+  font-family: "Poppins", serif;
+}
+
+/*====flavoursicecream-section-end==== */
+
+/*====sugarrush-section-start==== */
+
+.sugarrush-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color-primary);
+  text-align: center;
+}
+
+.sugarrush-section .section-title {
+  text-align: center;
+  margin: 0px 150px 45px 150px;
+}
+
+.sugarrush-section .section-title h2 {
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.sugarrush-section .section-title p {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
+  font-family: "Poppins", serif;
+}
+
+.sugarrush-section img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.sugarrush-section .swiper-button-prev,
+.sugarrush-section .swiper-button-next {
+  height: 50px;
+  width: 50px;
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.sugarrush-section .swiper-button-prev:after,
+.sugarrush-section .swiper-button-next:after {
+  font-size: 25px;
+  color: var(--white);
+}
+
+/*====sugarrush-section-end==== */
+
+/*====deliciousdonuts-section-start==== */
+
+.deliciousdonuts-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color-secondary);
+}
+
+.deliciousdonuts-section .section-title {
+  text-align: center;
+  margin: 0px 150px 45px 150px;
+}
+
+.deliciousdonuts-section .section-title h2 {
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.deliciousdonuts-section .section-title p {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
+  font-family: "Poppins", serif;
+}
+
+.deliciousdonuts-section .donuts-content,
+.deliciousdonuts-section .deliciousdonuts-img {
+  margin-bottom: 25px;
+  background-color: var(--bg-color-primary);
+  padding: 10px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.deliciousdonuts-section .donuts-inner {
+  margin-bottom: 18px;
+  border-bottom: 2px dashed var(--primary-color);
+}
+
+.deliciousdonuts-section .donuts-inner h3 {
+  font-size: 24px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.deliciousdonuts-section .donuts-inner p {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 400;
+  font-family: "Poppins", serif;
+}
+
+/*====deliciousdonuts-section-end==== */
+
+/*====contactbanner-section-start==== */
+
+.contactbanner-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color-primary);
+}
+
+.contactbanner-section .contact-item {
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.contactbanner-section .contact-content h2 {
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.contactbanner-section .contact-content p {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  margin-top: 20px;
+}
+
+.contactbanner-section .contact-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contactbanner-section .contact-content ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: var(--grey);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contactbanner-section .contact-content ul li svg {
+  margin-right: 10px;
+  color: var(--primary-color);
+}
+
+.contactbanner-section .contact-btn button {
+  width: 150px;
+  height: 50px;
+  background-color: var(--white);
+  color: var(--primary-color);
+  border: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*====contactbanner-section-end==== */
+
+/*====testimonial-section-start==== */
+
+.testimonial-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color-secondary);
+}
+
+.testimonial-section .section-title {
+  text-align: center;
+  margin: 0px 150px 45px 150px;
+}
+.testimonial-section .section-title h2 {
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+.testimonial-section .section-title p {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
+  font-family: "Poppins", serif;
+}
+
+.testimonial-section .swiper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+.testimonial-section .swiper-slide {
+  background-color: var(--bg-color-primary);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.testimonial-section .swiper-slide p {
+  font-size: 16px;
+  color: var(--grey);
+  font-family: "Poppins", serif;
+}
+
+.testimonial-section .swiper-slide h4 {
+  font-size: 20px;
+  color: var(--dark);
+}
+
+.testimonial-section .swiper-slide span {
+  font-size: 16px;
+  color: var(--grey);
+}
+
+.testimonial-section .swiper-pagination-bullet-active {
+  background-color: var(--primary-color);
+}
+
+/*====testimonial-section-end==== */
+
+/*====blog-section-end==== */
+
+.blog-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color-secondary);
+}
+
+.blog-section .section-title {
+  text-align: center;
+  margin: 0px 150px 45px 150px;
+}
+
+.blog-section .section-title h2 {
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.blog-section .blog-post {
+  background-color: var(--bg-color-primary);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 25px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 100%;
+}
+
+.blog-section .blog-post:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.blog-section .blog-post img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.blog-section .blog-content {
+  margin-top: 20px;
+}
+
+.blog-section .post-meta {
+  margin-bottom: 10px;
+}
+
+.blog-section .blog-content h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: "Poppins", serif;
+}
+
+.blog-section .blog-content p {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 400;
+  font-family: "Poppins", serif;
+}
+
+.blog-section .blog-content .read-more {
+  font-size: 16px;
+  color: var(--dark);
+  font-weight: 400;
+  font-family: "Poppins", serif;
+}
+
+/*====blog-section-end==== */
+
+/*====contact-section-start==== */
+
+.contact-section {
+  padding: 90px 0px;
+  background-color: var(--bg-color-secondary);
+}
+
+.contact-section .section-title {
+  text-align: center;
+  margin: 0px 150px 45px 150px;
+}
+
+.contact-section .section-title h2 {
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.contact-section .section-title p {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
+}
+
+.contact-section .contact-box {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-section .contact-box a,
+.contact-section .contact-box p {
+  color: var(--dark);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  text-decoration: none;
+}
+
+.contact-section .contact-box svg {
+  height: 50px;
+  width: 50px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/*====contact-section-end==== */

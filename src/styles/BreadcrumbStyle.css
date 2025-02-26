@@ -1,0 +1,61 @@
+/*===== breadcrumb-section-start======*/
+
+.breadcrumb-section {
+  background: url(../assets/images/breadcrumb-bg.png) no-repeat center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  padding: 90px 0px;
+  height: 300px;
+  display: flex;
+}
+
+.breadcrumb-section .breadcrumb-heading h2 {
+  font-size: 40px;
+  color: var(--primary-color);
+  font-weight: 600;
+  margin: 0;
+}
+
+.breadcrumb-section .breadcrumb {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.breadcrumb-section .breadcrumb li {
+  font-size: 16px;
+  color: var(--dark);
+  font-weight: 500;
+  z-index: 1;
+  padding: 5px 10px 5px 0px;
+  display: flex;
+}
+
+.breadcrumb-section .breadcrumb li a {
+  font-size: 16px;
+  color: var(--dark);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.breadcrumb-section .breadcrumb li a:hover {
+  color: var(--Secondary-color);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: var(--dark);
+}
+
+.breadcrumb-section .breadcrumb-box {
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*===== breadcrumb-section-end ======*/
