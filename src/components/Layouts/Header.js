@@ -43,6 +43,8 @@ const Header = () => {
               </Link>
             </Navbar.Brand>
             <Navbar.Toggle
+              className="ms-auto d-lg-none"
+              type="button"
               aria-controls="offcanvasNavbar"
               onClick={handleShowOffcanvas}
             >
